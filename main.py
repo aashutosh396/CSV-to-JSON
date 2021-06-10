@@ -22,6 +22,7 @@ def read_data(filename):
 
 	write_data(data)
 
+
 def write_data(data):
 	# writing into an output file
 	with open('data.json', 'w') as outfile:
